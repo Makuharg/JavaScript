@@ -1,0 +1,40 @@
+body {
+    margin: auto;
+    width: 70%;
+}
+
+/* Agregando un NAV BAR en mi pagina web */
+
+nav {
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center; 
+    border-bottom: 1px solid black;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav div img {
+    height: 100px;
+    width: auto;
+}
+
+nav div ul {
+    list-style: none;
+    padding: 1.5em;
+    margin: 1.5em;
+    font-size: 1.1em;  
+    
+}
+
+nav div ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ========================== */
